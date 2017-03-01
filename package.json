@@ -5,6 +5,10 @@
   "bin": {
     "perf-chk": "./index.js"
   },
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/perfectacle/perf-chk.git"
@@ -18,7 +22,8 @@
     "module",
     "file",
     "function",
-    "code"
+    "code",
+    "cli"
   ],
   "author": {
     "name": "perfectacle",
