@@ -10,7 +10,7 @@ if(!moduleName) { // if module name was omitted
 
 // get iteration count, default is 100,000,000.
 const iterations = process.argv.slice(3)[0] === undefined ? 100000000 : +process.argv.slice(3)[0];
-if(!Number.isSafeInteger(iterations)) {
+if(!Number.isSafeInteger(iterations) || iterations < 1) {
   console.error('Error: Please type correct number!');
   console.error('perf-chk {module_name} [iteration_counts]');
   console.error('[iteration_counts] is safe integer for natural number');
