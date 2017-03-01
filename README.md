@@ -34,7 +34,7 @@ npm i -g perf-chk
 ```
 * local  
 ```bash
-npm i perf-chk
+npm i -D perf-chk
 ```
 
 ### Usage
@@ -56,9 +56,9 @@ module.exports = {
 }
 ```
 `note`
-* module.exports = {} is node.js module export syntax.  
-and pref-chk is node.js app, so you must use this syntax.  
-* You can choose function syntax  
+  * module.exports = {} is node.js module export syntax.  
+    and pref-chk is node.js app, so you must use this syntax.  
+  * You can choose function syntax  
 2. open terminal(cmd in windows)  
 3. type below,  
 ```bash
