@@ -1,7 +1,7 @@
 # perf-chk (Performance Check)
-[![NPM](https://nodei.co/npm/perf-chk.png)](https://www.npmjs.com/package/perf-chk)  
-![](https://img.shields.io/npm/dt/perf-chk.svg?style=plastic)  
-![](https://img.shields.io/npm/v/perf-chk.svg?style=plastic)  
+[![NPM](https://nodei.co/npm/perf-chk.png)](https://www.npmjs.com/package/perf-chk)
+![download total](https://img.shields.io/npm/dt/perf-chk.svg?style=plastic)
+![npm version](https://img.shields.io/npm/v/perf-chk.svg?style=plastic)
 
 ## Why did you make perf-chk?
 I'm interested in code execution time,  
