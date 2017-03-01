@@ -38,7 +38,7 @@ npm i -D perf-chk
 ```
 
 ### Usage
-#### make your test code. (module)  
+#### 1. make your test code. (module)  
 ```javascript
 // some code
 // blahblah
@@ -60,7 +60,7 @@ module.exports = {
   and pref-chk is node.js app, so you must use this syntax.  
 * You can choose function syntax  
 
-#### check execution time
+#### 2. check execution time
 1. open terminal(cmd in windows)  
 2. type below,  
 ```bash
