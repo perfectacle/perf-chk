@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // get iteration count, default is 100,000,000.
 const iterations = +process.argv.slice(3)[0] || 100000000;
 
