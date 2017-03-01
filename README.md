@@ -70,6 +70,7 @@ If you installed it locally, type below
 ```bash
 ./node_modules/pref-chk {module_name} [iteration_counts]
 ```
+![usage](usage.png)
 ##### note
 module_name is required, and module_name is \<filename>.js or \<filename>  
 iteration_counts is optional, default value is 100,000,000.  
@@ -77,3 +78,10 @@ if the execution time of functions are similar,
 There is no difference between them,  
 but you want to know diffrence of execution time,  
 you have to extend iteration_counts
+
+## Notes
+Execution time isn't same.  
+It depends on Computer specification(CPU, RAM, etc.)  
+And same computer's result isn't same.  
+Because CPU and RAM usage is Vary every time.  
+So use execution time for reference only.
