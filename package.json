@@ -1,0 +1,39 @@
+{
+  "name": "perf-chk",
+  "version": "1.0.0",
+  "description": "Check your code perfomance in Node.js",
+  "bin": {
+    "perf-chk": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perfectacle/perf-chk.git"
+  },
+  "keywords": [
+    "check",
+    "performance",
+    "node",
+    "js",
+    "javascript",
+    "module",
+    "file",
+    "function",
+    "code"
+  ],
+  "author": {
+    "name": "perfectacle",
+    "email": "perfectacle@naver.com",
+    "url": "https://perfectacle.github.io/"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT"
+  }],
+  "bugs": {
+    "url": "https://github.com/perfectacle/perf-chk/issues"
+  },
+  "homepage": "https://github.com/perfectacle/perf-chk#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
