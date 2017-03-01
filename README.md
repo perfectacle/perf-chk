@@ -16,7 +16,7 @@ for(let i=0; i<iterations; i++){
 console.timeEnd("function A"); // 'Function A: xxx.xxx ms'
 console.time("function B");
 for(let i=0; i<iterations; i++){
-  // some code1
+  // some code2
 }
 console.timeEnd("function B"); // 'Function B: xxx.xxx ms'
 ```

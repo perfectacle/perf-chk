@@ -1,6 +1,6 @@
 {
   "name": "perf-chk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Check your code perfomance in Node.js",
   "bin": {
     "perf-chk": "./index.js"
