@@ -31,6 +31,9 @@ It is execution time checker in Node.js.
 Use perf-chk if you want to know which code is faster.  
 
 ## Getting Started
+perf-chk uses some ES6 features. (const, arrow function)  
+So you must use Node.js v6.4.0 or more.
+
 ### Installation
 * global (recommended)
 ```bash
@@ -79,14 +82,23 @@ If you installed it locally, type below
 ##### note
 module_name is required, and module_name is \<filename>.js or \<filename>  
 iteration_counts is optional, default value is 100,000,000.  
+iteration_counts range is safe integer for natural number.  
+range is 1 ~ 9,007,199,254,740,991.  
 if the execution time of functions are similar,  
 There is no difference between them,  
 but you want to know diffrence of execution time,  
 you have to extend iteration_counts
 
 ## Notes
-Execution time isn't same.  
+* Execution time isn't same.  
 It depends on Computer specification(CPU, RAM, etc.)  
 And same computer's result isn't same.  
 Because CPU and RAM usage is Vary every time.  
-So use execution time for reference only.
+So use execution time for reference only.  
+* perf-chk runs on Node.js  
+Node.js not contains DOM(Document Object Model, like document.getElementById),  
+and BOM(Browser Object Model, like window.alert).  
+So you can test only ECMAScript,  
+ECMAScript version supporting is dependent on the Node.js version.  
+Go to below link if you want to know Node.js ES Support table.  
+[Node.js ECMAScript compatibility tables](http://node.green/)
