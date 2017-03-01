@@ -61,18 +61,18 @@ module.exports = {
 ```
 ##### note
 * module.exports = {} is module export syntax in node.js.  
-  and pref-chk is node.js app, so you must use this syntax.  
+  and perf-chk is node.js app, so you must use this syntax.  
 * You can choose function syntax  
 
 #### 2. check execution time
 1. open terminal(cmd in windows)  
 2. type below,  
 ```bash
-pref-chk {module_name} [iteration_counts]
+perf-chk {module_name} [iteration_counts]
 ```
 If you installed it locally, type below  
 ```bash
-./node_modules/pref-chk {module_name} [iteration_counts]
+./node_modules/perf-chk {module_name} [iteration_counts]
 ```
 ![usage](usage.png)  
 
