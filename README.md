@@ -38,7 +38,7 @@ npm i -D perf-chk
 ```
 
 ### Usage
-* make your test code. (module)  
+#### make your test code. (module)  
 ```javascript
 // some code
 // blahblah
@@ -55,13 +55,14 @@ module.exports = {
   }
 }
 ```
-`note`
-  1. module.exports = {} is node.js module export syntax.  
-    and pref-chk is node.js app, so you must use this syntax.  
-  2. You can choose function syntax  
+##### note
+* module.exports = {} is node.js module export syntax.  
+  and pref-chk is node.js app, so you must use this syntax.  
+* You can choose function syntax  
 
-* open terminal(cmd in windows)  
-* type below,  
+#### check execution time
+1. open terminal(cmd in windows)  
+2. type below,  
 ```bash
 pref-chk {module_name} [iteration_counts]
 ```
@@ -69,7 +70,8 @@ If you installed it locally, type below
 ```bash
 ./node_modules/pref-chk {module_name} [iteration_counts]
 ```
-module_name is required, and module name is \<filename>.js or \<filename>  
+##### note
+module_name is required, and module_name is \<filename>.js or \<filename>  
 iteration_counts is optional, default value is 100,000,000.  
 if the execution time of functions are similar,  
 There is no difference between them,  
