@@ -1,4 +1,8 @@
 # perf-chk (Performance Check)
+[![NPM](https://nodei.co/npm/perf-chk.png)](https://www.npmjs.com/package/perf-chk)
+![npm](https://img.shields.io/npm/dt/perf-chk.svg?style=plastic)
+![npm](https://img.shields.io/npm/v/perf-chk.svg?style=plastic)
+
 ## Why did you make perf-chk?
 I'm interested in code execution time,  
 So I sometimes test my code,  
@@ -70,7 +74,8 @@ If you installed it locally, type below
 ```bash
 ./node_modules/pref-chk {module_name} [iteration_counts]
 ```
-![usage](usage.png)
+![usage](usage.png)  
+
 ##### note
 module_name is required, and module_name is \<filename>.js or \<filename>  
 iteration_counts is optional, default value is 100,000,000.  
