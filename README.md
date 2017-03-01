@@ -56,7 +56,7 @@ module.exports = {
 }
 ```
 ##### note
-* module.exports = {} is node.js module export syntax.  
+* module.exports = {} is module export syntax in node.js.  
   and pref-chk is node.js app, so you must use this syntax.  
 * You can choose function syntax  
 
