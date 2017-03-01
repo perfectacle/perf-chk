@@ -38,7 +38,7 @@ npm i -D perf-chk
 ```
 
 ### Usage
-1. make your test code. (module)  
+* make your test code. (module)  
 ```javascript
 // some code
 // blahblah
@@ -56,11 +56,12 @@ module.exports = {
 }
 ```
 `note`
-  * module.exports = {} is node.js module export syntax.  
+  1. module.exports = {} is node.js module export syntax.  
     and pref-chk is node.js app, so you must use this syntax.  
-  * You can choose function syntax  
-2. open terminal(cmd in windows)  
-3. type below,  
+  2. You can choose function syntax  
+
+* open terminal(cmd in windows)  
+* type below,  
 ```bash
 pref-chk {module_name} [iteration_counts]
 ```
